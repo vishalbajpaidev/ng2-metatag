@@ -1,4 +1,4 @@
-# ng2-meta
+# ng2-metatag
 
 Update HTML meta tags for title, description and others automatically based on the route in your Angular2 app.
 
@@ -8,7 +8,7 @@ Update HTML meta tags for title, description and others automatically based on t
 To install this library, run:
 
 ```bash
-$ npm install ng2-meta --save
+$ npm install ng2-metatag --save
 ```
 
 ### Modify routes
@@ -16,7 +16,7 @@ $ npm install ng2-meta --save
 Add meta tags to routes. By default, `title` and `description` values are duplicated for `og:title` and `og:description`, so there's no need to add them separately.
 <pre>
 <code>
-<strong>import { MetaService } from 'ng2-meta';</strong>
+<strong>import { MetaService } from 'ng2-metatag';</strong>
 const routes: RouterConfig = [
   {
     path: 'home',
@@ -48,7 +48,7 @@ const routes: RouterConfig = [
 
 <pre>
 <code>
-<strong>import { MetaService } from 'ng2-meta';</strong>
+<strong>import { MetaService } from 'ng2-metatag';</strong>
 ...
 bootstrap(AppComponent, [
   HTTP_PROVIDERS,
@@ -62,7 +62,7 @@ bootstrap(AppComponent, [
 
 <pre>
 <code>
-<strong>import { MetaService } from 'ng2-meta';</strong>
+<strong>import { MetaService } from 'ng2-metatag';</strong>
 
 @Component({
   ...
@@ -74,7 +74,7 @@ export class AppComponent {
 </code>
 </pre>
 
-You're all set! ng2-meta will update the meta tags whenever the route changes.
+You're all set! ng2-metatag will update the meta tags whenever the route changes.
 
 ## Development
 

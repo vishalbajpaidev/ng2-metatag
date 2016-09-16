@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      "ng2-meta@^0.1.0",
+      "/home/ttnd/Documents/cs_pro/eponym-multi-store"
+    ]
+  ],
+  "_from": "ng2-meta@>=0.1.0 <0.2.0",
+  "_id": "ng2-meta@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ng2-meta",
+  "_nodeVersion": "6.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ng2-meta-0.1.0.tgz_1469143641663_0.8215423508081585"
+  },
+  "_npmUser": {
+    "email": "vinaygopinath@yandex.com",
+    "name": "vinaygopinath"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "ng2-meta",
+    "raw": "ng2-meta@^0.1.0",
+    "rawSpec": "^0.1.0",
+    "scope": null,
+    "spec": ">=0.1.0 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng2-meta/-/ng2-meta-0.1.0.tgz",
+  "_shasum": "3361747fb35449eba7cfc1ee5f42c37923c81565",
+  "_shrinkwrap": null,
+  "_spec": "ng2-meta@^0.1.0",
+  "_where": "/home/ttnd/Documents/cs_pro/eponym-multi-store",
+  "author": {
+    "email": "vinay@vinaygopinath.me",
+    "name": "Vinay Gopinath"
+  },
+  "bugs": {
+    "url": "https://github.com/vinaygopinath/ng2-meta/issues"
+  },
+  "dependencies": {},
+  "description": "Dynamic meta tags and SEO in Angular2",
+  "devDependencies": {
+    "codelyzer": "^0.0.20",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha-reporter": "^2.0.4",
+    "tslint": "^3.6.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "3361747fb35449eba7cfc1ee5f42c37923c81565",
+    "tarball": "https://registry.npmjs.org/ng2-meta/-/ng2-meta-0.1.0.tgz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "gitHead": "1cddd9f2161ab3b8c28c3ffcd1a82614aa695aea",
+  "homepage": "https://github.com/vinaygopinath/ng2-meta#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "seo",
+    "meta tags",
+    "open graph"
+  ],
+  "license": "MIT",
+  "main": "./dist/meta.service.js",
+  "maintainers": [
+    {
+      "email": "vinaygopinath@yandex.com",
+      "name": "vinaygopinath"
+    }
+  ],
+  "name": "ng2-meta",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/core": "^2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
+    "@angular/router": "^3.0.0-beta.2",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "0.6.12"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaygopinath/ng2-meta.git"
+  },
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "postinstall": "typings install",
+    "prepublish": "tsc",
+    "test": "tsc && karma start config/karma.conf.js",
+    "tsc": "tsc",
+    "typings": "typings"
+  },
+  "typings": "./dist/meta.service.d.ts",
+  "version": "0.1.0"
+}
